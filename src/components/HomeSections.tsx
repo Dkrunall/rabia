@@ -21,7 +21,7 @@ export function HeroSection() {
         <section ref={sectionRef} className="cinematic-section relative">
             {/* Cinematic Background */}
             <div className="absolute inset-0 bg-black opacity-40 mix-blend-luminosity">
-                <Image src="/img/r10.JPG" alt="Rabia Background" fill className="object-cover object-center filter grayscale" priority sizes="100vw" />
+                <Image src="/img/r24.jpg" alt="Rabia Background" fill className="object-cover filter grayscale" style={{ objectPosition: "75% 30%" }} priority sizes="100vw" />
             </div>
 
             {/* Gradient Overlay */}
@@ -397,7 +397,7 @@ export function FooterSection() {
                         </span>
                         <h2 className="text-[14vw] lg:text-[10vw] font-black uppercase truus-heading tracking-tighter text-white">
                             Book<br />
-                            <a href="mailto:darshak.shetty@peninsulagrand.co.in" className="text-stroke-accent hover:text-[var(--accent-primary)] transition-all duration-500 cursor-pointer flex items-center gap-4 group">
+                            <a href="mailto:darshak@andfriends.in" className="text-stroke-accent hover:text-[var(--accent-primary)] transition-all duration-500 cursor-pointer flex items-center gap-4 group">
                                 Artist
                                 <ArrowUpRight className="w-12 h-12 lg:w-24 lg:h-24 text-[var(--accent-primary)] opacity-0 group-hover:opacity-100 group-hover:-translate-y-4 group-hover:translate-x-4 transition-all duration-500" />
                             </a>
@@ -406,10 +406,10 @@ export function FooterSection() {
 
                     {/* Contact Details Right */}
                     <div className="lg:col-span-4 flex flex-col gap-12 lg:items-end justify-center">
-                        <a href="mailto:darshak.shetty@peninsulagrand.co.in" className="flex flex-col group lg:text-right">
+                        <a href="mailto:darshak@andfriends.in" className="flex flex-col group lg:text-right">
                             <span className="text-[10px] uppercase tracking-[0.4em] font-bold text-[var(--accent-primary)] mb-2 group-hover:text-white transition-colors">Management Email</span>
                             <span className="text-sm md:text-lg font-bold tracking-widest text-white group-hover:text-[var(--accent-primary)] transition-colors">
-                                darshak.shetty@<br />peninsulagrand.co.in
+                                darshak@andfriends.in
                             </span>
                         </a>
 

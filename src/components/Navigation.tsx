@@ -66,7 +66,7 @@ export function Navigation() {
                     {/* Bookings Action Button */}
                     <div className="w-full pt-1">
                         <Link
-                            href="mailto:darshak.shetty@peninsulagrand.co.in"
+                            href="mailto:darshak@andfriends.in"
                             className="w-full flex justify-between items-center px-6 py-3.5 rounded-2xl bg-[var(--accent-primary)]/10 border border-[var(--accent-primary)]/30 text-white font-bold text-[10px] tracking-[0.2em] uppercase hover:bg-[var(--accent-primary)] hover:border-[var(--accent-primary)] hover:shadow-[0_0_20px_rgba(255,0,85,0.4)] transition-all group"
                         >
                             <span>Book Options</span>
