@@ -59,7 +59,7 @@ export function BiographySection() {
             <div className="max-w-[1800px] mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 items-center">
                 {/* Left Side: Image */}
                 <div className="relative aspect-[3/4] md:aspect-square w-full max-w-xl mx-auto overflow-hidden group">
-                    <Image src="/img/r11.JPG" alt="Visionary Artist" fill className="object-cover object-top filter grayscale group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100" sizes="(max-width: 768px) 100vw, 50vw" />
+                    <Image src="/img/r16.jpg" alt="Visionary Artist" fill className="object-cover object-top filter grayscale group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100" sizes="(max-width: 768px) 100vw, 50vw" />
                     <div className="absolute inset-0 bg-[var(--accent-primary)]/10 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
                     {/* Corner accents */}
                     <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-[var(--accent-primary)] opacity-50" />
@@ -97,9 +97,9 @@ export function RabiaZonersSection() {
     ];
 
     const images = [
-        "/img/r10.JPG",
+        "/img/r21.jpg",
         "/img/r12.JPG",
-        "/img/r13.JPG",
+        "/img/r18.jpg",
     ];
 
     return (
@@ -149,11 +149,17 @@ export function RabiaZonersSection() {
 export function VisualsSection() {
     const images = [
         "/img/r2.JPG",
+        "/img/r17.jpg",
         "/img/r3.JPG",
+        "/img/r20.jpg",
         "/img/r4.JPG",
+        "/img/r19.jpg",
         "/img/r5.JPG",
+        "/img/r22.jpg",
         "/img/r6.JPG",
+        "/img/r13.JPG",
         "/img/r7.JPG",
+        "/img/r23.jpg",
         "/img/r9.JPG",
         "/img/r11.JPG",
         "/img/r15.JPG",
@@ -173,7 +179,7 @@ export function VisualsSection() {
             </div>
 
             <div className="marquee-container group w-full h-[400px] md:h-[600px] relative z-10">
-                <div className="marquee-content group-hover:[animation-play-state:paused] gap-4 md:gap-8 px-4" style={{ animationDuration: '40s' }}>
+                <div className="marquee-content group-hover:[animation-play-state:paused] gap-4 md:gap-8 px-4" style={{ animationDuration: '65s' }}>
                     {[...images, ...images].map((img, i) => (
                         <div key={i} className="relative h-full aspect-[4/5] md:aspect-[3/4] overflow-hidden rounded-2xl shrink-0 group/img filter grayscale hover:grayscale-0 transition-all duration-700 cursor-none border border-white/5">
                             <Image src={img} alt={`Live Show ${i}`} fill className="object-cover object-center scale-105 group-hover/img:scale-100 transition-transform duration-1000" sizes="(max-width: 768px) 50vw, 25vw" loading="lazy" />
