@@ -634,7 +634,7 @@
     animation: var(--animate-pulse);
   }
   .cursor-none {
-    cursor: none;
+    cursor: default;
   }
   .cursor-pointer {
     cursor: pointer;
@@ -2081,7 +2081,10 @@ body {
   color: white;
 }
 * {
-  cursor: none !important;
+  cursor: auto;
+}
+a, button, input, select, textarea, [role="button"] {
+  cursor: pointer;
 }
 .ambient-glow {
   position: fixed;

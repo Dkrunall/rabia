@@ -42,3 +42,8 @@ next-env.d.ts
 
 # original photo shoot files (web copies live in public/img)
 /rabia_new/
+
+# Isolated local preview
+/.next-preview/
+/.next-preview-server.log
+/.next-production-preview.log

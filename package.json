@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"next dev -p 3001\" \"npx @tailwindcss/cli -i src/app/globals.css -o public/compiled.css --watch\"",
-    "build": "npx @tailwindcss/cli -i src/app/globals.css -o public/compiled.css && next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "next dev -p 3060",
+    "build": "next build",
+    "start": "next start -p 3060",
+    "lint": "next lint"
   },
   "dependencies": {
     "clsx": "^2.1.1",
